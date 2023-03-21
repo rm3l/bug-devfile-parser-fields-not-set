@@ -1,0 +1,29 @@
+components:
+  - container:
+      command: [ 'tail' ]
+      args: [ '-f', '/dev/null' ]
+      image: my-image:1.2.3
+      mountSources: true
+    name: runtime
+
+  # deployByDefault true
+  - kubernetes:
+      deployByDefault: true
+      inlined: |
+        some data
+    name: k8s-deploybydefault-true
+
+  # autoBuild false
+  - image:
+      autoBuild: false
+      dockerfile:
+        buildContext: .
+        uri: Dockerfile
+      imageName: my-image:1.2.3
+    name: image-autobuild-false
+
+metadata:
+  name: mystack
+  version: 0.0.1
+
+schemaVersion: 2.2.0
