@@ -1,7 +1,7 @@
-**Link to issue** : [devfile/api#919](https://github.com/devfile/api/issues/919)
+**Link to issue** : [devfile/api#1067](https://github.com/devfile/api/issues/1067)
 
 **Notes**
-- Might be related to [devfile/api#371](https://github.com/devfile/api/issues/371)
+- Related to https://github.com/redhat-developer/odo/issues/5694#issuecomment-1465778398
 
 **How to reproduce the issue**
 
