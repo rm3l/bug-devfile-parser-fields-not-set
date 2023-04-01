@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/devfile/api/v2 v2.2.0
-	github.com/devfile/library/v2 v2.2.1-0.20230315140326-f87c6926afe8
+	github.com/devfile/library/v2 v2.2.1-0.20230330160000-c1b23d25e652
 	github.com/ghodss/yaml v1.0.0
 	github.com/google/go-cmp v0.5.9
 	k8s.io/utils v0.0.0-20221128185143-99ec85e7a448

@@ -1,3 +1,7 @@
+**This issue is now fixed with https://github.com/devfile/library/pull/169**
+
+---
+
 **Link to issue** : [devfile/api#1067](https://github.com/devfile/api/issues/1067)
 
 **Notes**
